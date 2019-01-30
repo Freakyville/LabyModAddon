@@ -1,0 +1,16 @@
+[
+{
+  "modid": "LabyModFV",
+  "name": "FreakyVille LabyMod Addon",
+  "description": "Addon til LabyMod.",
+  "version": "1.0",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Andireas"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,8 @@
+{
+  "uuid": "%uuid%",
+  "name": "FreakyVille Addon",
+  "author": "Andireas",
+  "description": "This addon is for FreakyVille players",
+  "mainClass": "dk.andireas.labyModFV.Main",
+  "icon": "https://cdn.discordapp.com/avatars/503329160006205440/0b2cd15a21428a69ada27ea937f950e7.png"
+}

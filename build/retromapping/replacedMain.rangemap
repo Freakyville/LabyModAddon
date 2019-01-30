@@ -1,0 +1,119 @@
+Symbol range map extraction starting
+Processing 2 files
+processing dk\andireas\labyModFV\FVConnection.java
+@|dk\andireas\labyModFV\FVConnection.java|8|29|dk.andireas.labyModFV|package|dk.andireas.labyModFV|(file)
+Class Start: dk.andireas.labyModFV.FVConnection
+   @|dk\andireas\labyModFV\FVConnection.java|582|592|displayElo|field|dk.andireas.labyModFV.FVConnection|displayElo|
+   Method Start: FVConnection()V
+      @|dk\andireas\labyModFV\FVConnection.java|613|625|FVConnection|method|dk.andireas.labyModFV.FVConnection|FVConnection|()V
+   Method End: FVConnection()V
+   Method Start: onJoin(Lnet/minecraft/client/multiplayer/ServerData;)V
+      @|dk\andireas\labyModFV\FVConnection.java|718|724|onJoin|method|net.labymod.servermanager.Server|onJoin|(Lnet/minecraft/client/multiplayer/ServerData;)V
+      @|dk\andireas\labyModFV\FVConnection.java|725|735|ServerData|class|net.minecraft.client.multiplayer.ServerData
+      @|dk\andireas\labyModFV\FVConnection.java|736|746|serverData|param|dk.andireas.labyModFV.FVConnection|onJoin|(Lnet/minecraft/client/multiplayer/ServerData;)V|serverData|0
+      @|dk\andireas\labyModFV\FVConnection.java|758|762|Main|class|dk.andireas.labyModFV.Main
+      @|dk\andireas\labyModFV\FVConnection.java|763|776|setAddonState|method|dk.andireas.labyModFV.Main|setAddonState|(Z)V
+   Method End: onJoin(Lnet/minecraft/client/multiplayer/ServerData;)V
+   Method Start: handleChatMessage(Ljava/lang/String;Ljava/lang/String;)Lnet/labymod/servermanager/ChatDisplayAction;
+      @|dk\andireas\labyModFV\FVConnection.java|834|851|handleChatMessage|method|net.labymod.servermanager.Server|handleChatMessage|(Ljava/lang/String;Ljava/lang/String;)Lnet/labymod/servermanager/ChatDisplayAction;
+      @|dk\andireas\labyModFV\FVConnection.java|816|833|ChatDisplayAction|class|net.labymod.servermanager.ChatDisplayAction
+      @|dk\andireas\labyModFV\FVConnection.java|880|889|Exception|class|java.lang.Exception
+      @|dk\andireas\labyModFV\FVConnection.java|852|858|String|class|java.lang.String
+      @|dk\andireas\labyModFV\FVConnection.java|859|860|s|param|dk.andireas.labyModFV.FVConnection|handleChatMessage|(Ljava/lang/String;Ljava/lang/String;)Lnet/labymod/servermanager/ChatDisplayAction;|s|0
+      @|dk\andireas\labyModFV\FVConnection.java|862|868|String|class|java.lang.String
+      @|dk\andireas\labyModFV\FVConnection.java|869|871|s1|param|dk.andireas.labyModFV.FVConnection|handleChatMessage|(Ljava/lang/String;Ljava/lang/String;)Lnet/labymod/servermanager/ChatDisplayAction;|s1|1
+   Method End: handleChatMessage(Ljava/lang/String;Ljava/lang/String;)Lnet/labymod/servermanager/ChatDisplayAction;
+   Method Start: handlePluginMessage(Ljava/lang/String;Lnet/minecraft/network/PacketBuffer;)V
+      @|dk\andireas\labyModFV\FVConnection.java|950|969|handlePluginMessage|method|net.labymod.servermanager.Server|handlePluginMessage|(Ljava/lang/String;Lnet/minecraft/network/PacketBuffer;)V
+      @|dk\andireas\labyModFV\FVConnection.java|1014|1023|Exception|class|java.lang.Exception
+      @|dk\andireas\labyModFV\FVConnection.java|970|976|String|class|java.lang.String
+      @|dk\andireas\labyModFV\FVConnection.java|977|978|s|param|dk.andireas.labyModFV.FVConnection|handlePluginMessage|(Ljava/lang/String;Lnet/minecraft/network/PacketBuffer;)V|s|0
+      @|dk\andireas\labyModFV\FVConnection.java|980|992|PacketBuffer|class|net.minecraft.network.PacketBuffer
+      @|dk\andireas\labyModFV\FVConnection.java|993|1005|packetBuffer|param|dk.andireas.labyModFV.FVConnection|handlePluginMessage|(Ljava/lang/String;Lnet/minecraft/network/PacketBuffer;)V|packetBuffer|1
+   Method End: handlePluginMessage(Ljava/lang/String;Lnet/minecraft/network/PacketBuffer;)V
+   Method Start: handleTabInfoMessage(Lnet/labymod/api/events/TabListEvent$Type;Ljava/lang/String;Ljava/lang/String;)V
+      @|dk\andireas\labyModFV\FVConnection.java|1064|1084|handleTabInfoMessage|method|net.labymod.servermanager.Server|handleTabInfoMessage|(Lnet/labymod/api/events/TabListEvent$Type;Ljava/lang/String;Ljava/lang/String;)V
+      @|dk\andireas\labyModFV\FVConnection.java|1137|1146|Exception|class|java.lang.Exception
+      @|dk\andireas\labyModFV\FVConnection.java|1085|1102|TabListEvent.Type|class|net.labymod.api.events.TabListEvent.Type
+      @|dk\andireas\labyModFV\FVConnection.java|1103|1107|type|param|dk.andireas.labyModFV.FVConnection|handleTabInfoMessage|(Lnet/labymod/api/events/TabListEvent$Type;Ljava/lang/String;Ljava/lang/String;)V|type|0
+      @|dk\andireas\labyModFV\FVConnection.java|1109|1115|String|class|java.lang.String
+      @|dk\andireas\labyModFV\FVConnection.java|1116|1117|s|param|dk.andireas.labyModFV.FVConnection|handleTabInfoMessage|(Lnet/labymod/api/events/TabListEvent$Type;Ljava/lang/String;Ljava/lang/String;)V|s|1
+      @|dk\andireas\labyModFV\FVConnection.java|1119|1125|String|class|java.lang.String
+      @|dk\andireas\labyModFV\FVConnection.java|1126|1128|s1|param|dk.andireas.labyModFV.FVConnection|handleTabInfoMessage|(Lnet/labymod/api/events/TabListEvent$Type;Ljava/lang/String;Ljava/lang/String;)V|s1|2
+   Method End: handleTabInfoMessage(Lnet/labymod/api/events/TabListEvent$Type;Ljava/lang/String;Ljava/lang/String;)V
+   Method Start: fillSubSettings(Ljava/util/List;)V
+      @|dk\andireas\labyModFV\FVConnection.java|1188|1203|fillSubSettings|method|net.labymod.servermanager.Server|fillSubSettings|(Ljava/util/List;)V
+      @|dk\andireas\labyModFV\FVConnection.java|1209|1224|SettingsElement|class|net.labymod.settings.elements.SettingsElement
+      @|dk\andireas\labyModFV\FVConnection.java|1204|1208|List|class|java.util.List
+      @|dk\andireas\labyModFV\FVConnection.java|1226|1237|subSettings|param|dk.andireas.labyModFV.FVConnection|fillSubSettings|(Ljava/util/List;)V|subSettings|0
+   Method End: fillSubSettings(Ljava/util/List;)V
+Class End  : dk.andireas.labyModFV.FVConnection
+endProcessing dk\andireas\labyModFV\FVConnection.java
+
+processing dk\andireas\labyModFV\Main.java
+@|dk\andireas\labyModFV\Main.java|8|29|dk.andireas.labyModFV|package|dk.andireas.labyModFV|(file)
+Class Start: dk.andireas.labyModFV.Main
+   @|dk\andireas\labyModFV\Main.java|357|364|enabled|field|dk.andireas.labyModFV.Main|enabled|
+   @|dk\andireas\labyModFV\Main.java|393|401|enabled2|field|dk.andireas.labyModFV.Main|enabled2|
+   @|dk\andireas\labyModFV\Main.java|430|438|enabled3|field|dk.andireas.labyModFV.Main|enabled3|
+   Method Start: onEnable()V
+      @|dk\andireas\labyModFV\Main.java|471|479|onEnable|method|net.labymod.api.LabyModAddon|onEnable|()V
+      @|dk\andireas\labyModFV\Main.java|497|503|getApi|method|net.labymod.api.LabyModAddon|getApi|()Lnet/labymod/api/LabyModAPI;
+      @|dk\andireas\labyModFV\Main.java|506|527|registerServerSupport|method|net.labymod.api.LabyModAPI|registerServerSupport|(Lnet/labymod/api/LabyModAddon;Lnet/labymod/servermanager/Server;)V
+      @|dk\andireas\labyModFV\Main.java|539|551|FVConnection|class|dk.andireas.labyModFV.FVConnection
+      @|dk\andireas\labyModFV\Main.java|564|571|enabled|field|dk.andireas.labyModFV.Main|enabled
+   Method End: onEnable()V
+   Method Start: onDisable()V
+      @|dk\andireas\labyModFV\Main.java|618|627|onDisable|method|net.labymod.api.LabyModAddon|onDisable|()V
+   Method End: onDisable()V
+   Method Start: loadConfig()V
+      @|dk\andireas\labyModFV\Main.java|670|680|loadConfig|method|net.labymod.api.LabyModAddon|loadConfig|()V
+      @|dk\andireas\labyModFV\Main.java|698|705|enabled|field|dk.andireas.labyModFV.Main|enabled
+      @|dk\andireas\labyModFV\Main.java|708|717|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|dk\andireas\labyModFV\Main.java|720|723|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|dk\andireas\labyModFV\Main.java|739|748|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|dk\andireas\labyModFV\Main.java|751|754|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|dk\andireas\labyModFV\Main.java|768|780|getAsBoolean|method|com.google.gson.JsonElement|getAsBoolean|()Z
+   Method End: loadConfig()V
+   Method Start: fillSettings(Ljava/util/List;)V
+      @|dk\andireas\labyModFV\Main.java|858|870|fillSettings|method|net.labymod.api.LabyModAddon|fillSettings|(Ljava/util/List;)V
+      @|dk\andireas\labyModFV\Main.java|876|891|SettingsElement|class|net.labymod.settings.elements.SettingsElement
+      @|dk\andireas\labyModFV\Main.java|871|875|List|class|java.util.List
+      @|dk\andireas\labyModFV\Main.java|893|904|subSettings|param|dk.andireas.labyModFV.Main|fillSettings|(Ljava/util/List;)V|subSettings|0
+      @|dk\andireas\labyModFV\Main.java|916|930|BooleanElement|class|net.labymod.settings.elements.BooleanElement
+      @|dk\andireas\labyModFV\Main.java|940|954|BooleanElement|class|net.labymod.settings.elements.BooleanElement
+      @|dk\andireas\labyModFV\Main.java|979|1002|ControlElement.IconData|class|net.labymod.settings.elements.ControlElement.IconData
+      @|dk\andireas\labyModFV\Main.java|1004|1012|Material|class|net.labymod.utils.Material
+      @|dk\andireas\labyModFV\Main.java|1013|1018|LEVER|field|net.labymod.utils.Material|LEVER
+      @|dk\andireas\labyModFV\Main.java|1033|1040|enabled|field|dk.andireas.labyModFV.Main|enabled
+      @|dk\andireas\labyModFV\Main.java|1055|1065|setBlocked|method|net.labymod.settings.elements.ControlElement|setBlocked|(Z)V
+      @|dk\andireas\labyModFV\Main.java|1081|1092|subSettings|param|dk.andireas.labyModFV.Main|fillSettings|(Ljava/util/List;)V|subSettings|0
+      @|dk\andireas\labyModFV\Main.java|1093|1096|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|dk\andireas\labyModFV\Main.java|1110|1124|BooleanElement|class|net.labymod.settings.elements.BooleanElement
+      @|dk\andireas\labyModFV\Main.java|1135|1149|BooleanElement|class|net.labymod.settings.elements.BooleanElement
+      @|dk\andireas\labyModFV\Main.java|1175|1198|ControlElement.IconData|class|net.labymod.settings.elements.ControlElement.IconData
+      @|dk\andireas\labyModFV\Main.java|1200|1208|Material|class|net.labymod.utils.Material
+      @|dk\andireas\labyModFV\Main.java|1209|1214|LEVER|field|net.labymod.utils.Material|LEVER
+      @|dk\andireas\labyModFV\Main.java|1230|1238|enabled2|field|dk.andireas.labyModFV.Main|enabled2
+      @|dk\andireas\labyModFV\Main.java|1254|1266|setHoverable|method|net.labymod.settings.elements.ControlElement|setHoverable|(Z)Lnet/labymod/settings/elements/ControlElement;
+      @|dk\andireas\labyModFV\Main.java|1283|1294|subSettings|param|dk.andireas.labyModFV.Main|fillSettings|(Ljava/util/List;)V|subSettings|0
+      @|dk\andireas\labyModFV\Main.java|1295|1298|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|dk\andireas\labyModFV\Main.java|1313|1327|BooleanElement|class|net.labymod.settings.elements.BooleanElement
+      @|dk\andireas\labyModFV\Main.java|1338|1352|BooleanElement|class|net.labymod.settings.elements.BooleanElement
+      @|dk\andireas\labyModFV\Main.java|1378|1401|ControlElement.IconData|class|net.labymod.settings.elements.ControlElement.IconData
+      @|dk\andireas\labyModFV\Main.java|1403|1411|Material|class|net.labymod.utils.Material
+      @|dk\andireas\labyModFV\Main.java|1412|1417|LEVER|field|net.labymod.utils.Material|LEVER
+      @|dk\andireas\labyModFV\Main.java|1433|1441|enabled3|field|dk.andireas.labyModFV.Main|enabled3
+      @|dk\andireas\labyModFV\Main.java|1457|1467|setVisible|method|net.labymod.settings.elements.SettingsElement|setVisible|(Z)V
+      @|dk\andireas\labyModFV\Main.java|1484|1495|subSettings|param|dk.andireas.labyModFV.Main|fillSettings|(Ljava/util/List;)V|subSettings|0
+      @|dk\andireas\labyModFV\Main.java|1496|1499|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: fillSettings(Ljava/util/List;)V
+   Method Start: setAddonState(Z)V
+      @|dk\andireas\labyModFV\Main.java|1537|1550|setAddonState|method|dk.andireas.labyModFV.Main|setAddonState|(Z)V
+      @|dk\andireas\labyModFV\Main.java|1559|1564|state|param|dk.andireas.labyModFV.Main|setAddonState|(Z)V|state|0
+      @|dk\andireas\labyModFV\Main.java|1575|1582|enabled|field|dk.andireas.labyModFV.Main|enabled
+      @|dk\andireas\labyModFV\Main.java|1585|1590|state|param|dk.andireas.labyModFV.Main|setAddonState|(Z)V|state|0
+   Method End: setAddonState(Z)V
+Class End  : dk.andireas.labyModFV.Main
+endProcessing dk\andireas\labyModFV\Main.java
+
